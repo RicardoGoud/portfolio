@@ -14,11 +14,10 @@ const Contact = () => {
             </p>
             <h2 className='py-4'>Get in touch</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
-                {/* left */}
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <img className='rounded-xl hover:scale-105 ease-in duration-300' src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80" alt="/" />
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/assets/laptop.jpg' alt='/' />
                         </div>
                         <div>
                             <h2 className='py-2'>Ricardo Goud</h2>
@@ -44,8 +43,6 @@ const Contact = () => {
                     </div>
                     </div>
                 </div>
-
-                {/* right */}
 
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>

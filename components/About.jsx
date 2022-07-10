@@ -26,7 +26,7 @@ const About = () => {
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Bekijk hier mijn meest recente projecten.</p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <img className='rounded-xl' src="https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="/" />
+                <Image className='rounded-xl' src='/../public/assets/macbook.jpg' alt='/' />
             </div>
         </div>
     </div>
