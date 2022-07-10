@@ -4,6 +4,7 @@ import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Contact = () => {
   return (
@@ -17,7 +18,7 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full'>
                         <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/assets/laptop.jpg' alt='/' />
+                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src='/../public/assets/laptop.jpg' alt='/' width={410} height={300} />
                         </div>
                         <div>
                             <h2 className='py-2'>Ricardo Goud</h2>
