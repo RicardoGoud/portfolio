@@ -8,7 +8,7 @@ const About = () => {
             <div className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Wie ik ben:</h2>
-                <p className='py-2 text-gray-600'>// Geen standaard developer</p>
+                <p className='py-2 text-gray-600'>Geen standaard developer</p>
                 <p className='py-2 text-gray-600'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
