@@ -19,19 +19,19 @@ const Main = () => {
                     Ik ben een recentelijk afgestudeerd developer die zich richt op het developen en deployen van websites en andere digitale uitingen. Momenteel ben ik mijn kennis aan het verbreden in deze grote branche.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <a href="https://www.linkedin.com/in/ricardo-goud-095652194/" target='_blank'>
+                    <a href="https://www.linkedin.com/in/ricardo-goud-095652194/" target='_blank' rel="noreferrer">
                         <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <FaLinkedinIn />
                         </div>
                     </a>
 
-                    <a href="https://github.com/RicardoGoud" target='_blank'>
+                    <a href="https://github.com/RicardoGoud" target='_blank' rel="noreferrer">
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaGithub />
                     </div>
                     </a>
 
-                    <a href="mailto:ricardogoud@gmail.com" target='_blank'>
+                    <a href="mailto:ricardogoud@gmail.com" target='_blank' rel="noreferrer">
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail />
                     </div>
