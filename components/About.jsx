@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
+import aboutImg from '../public/assets/macbook.jpg';
 
 const About = () => {
   return (
@@ -27,7 +28,7 @@ const About = () => {
                 <p className='py-2 text-gray-600 underline cursor-pointer'>Bekijk hier mijn meest recente projecten.</p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
-                <Image className='rounded-xl' src='/../public/assets/macbook.jpg' alt='/' width={360} height={450} />
+                <Image className='rounded-xl' src={aboutImg} alt='/' />
             </div>
         </div>
     </div>

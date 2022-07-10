@@ -1,5 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
+import htmlImg from '../public/assets/skills/html.png'
+import cssImg from '../public/assets/skills/css.png'
+import javascriptImg from '../public/assets/skills/javascript.png'
+import phpImg from '../public/assets/skills/php.png'
+import xamppImg from '../public/assets/skills/xampp.png'
+import wordpressImg from '../public/assets/skills/wordpress.png'
 
 const Skills = () => {
   return (
@@ -13,7 +19,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                     <Image 
-                        src='/../public/assets/skills/html.png' 
+                        src={htmlImg} 
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -29,7 +35,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                     <Image 
-                        src='/../public/assets/skills/css.png' 
+                        src={cssImg} 
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -45,7 +51,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                     <Image 
-                        src='/../public/assets/skills/javascript.png' 
+                        src={javascriptImg}
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -61,7 +67,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                     <Image 
-                        src='/../public/assets/skills/php.png' 
+                        src={phpImg}
                         width='100px' 
                         height='64px' 
                         alt='/' 
@@ -77,7 +83,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                     <Image 
-                        src='/../public/assets/skills/xampp.png' 
+                        src={xamppImg}
                         width='64px' 
                         height='64px' 
                         alt='/' 
@@ -93,7 +99,7 @@ const Skills = () => {
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                     <Image 
-                        src='/../public/assets/skills/wordpress.png' 
+                        src={wordpressImg} 
                         width='64px' 
                         height='64px' 
                         alt='/' 
