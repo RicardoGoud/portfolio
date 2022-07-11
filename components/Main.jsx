@@ -1,14 +1,14 @@
 import React from 'react';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
+import {BsInstagram} from 'react-icons/bs';
 
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-                <p className='uppercase text=sm tracking-widest text-gray-600'>Don&apos;t wait. The time will never be just right.</p>
+                <p className='uppercase text=sm tracking-widest text-gray-600'>We gaan voor goud!</p>
                 <h1 className='py-4 text-gray-700'>
                     Hi, ik ben <span className='text-[#5651e5]' >Ricardo Goud</span>
                 </h1>
@@ -31,15 +31,15 @@ const Main = () => {
                     </div>
                     </a>
 
-                    <a href="mailto:ricardogoud@gmail.com" target='_blank' rel="noreferrer">
+                    <a href="/#contact">
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail />
                     </div>
                     </a>
 
-                    <a href="#contact">
+                    <a href="https://www.instagram.com/ricardo_goud/">
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
+                        <BsInstagram />
                     </div>
                     </a>
                 </div>

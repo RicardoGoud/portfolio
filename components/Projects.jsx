@@ -10,15 +10,17 @@ const Projects = () => {
     <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
-            <h2 className='py-4'>Lorem ipsum</h2>
+            <h2 className='py-4'>Mijn projecten & bijdragen</h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItem 
-                    title='Houdijk Configurator' 
+                    title='Houdijk Configurator'
+                    subtitle='WP website met custom PHP & image-maps' 
                     backgroundImg={houdijkImg} 
                     projectUrl='/houdijk'
                 />
                 <ProjectItem 
                     title='Willtell' 
+                    subtitle='Volledige website met Bootstrap'
                     backgroundImg={willtellImg} 
                     projectUrl='/willtell'
                 />

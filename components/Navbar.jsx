@@ -5,7 +5,7 @@ import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import {useRouter} from 'next/router';
-import logoImg from '../public/assets/logo-white.png'
+import logoImg from '../public/assets/logo-ricardo.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -49,10 +49,11 @@ const Navbar = () => {
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
                     <Image 
-                        src={logoImg} 
+                        src={logoImg}
+                        className='hover:cursor-pointer'
                         alt="/" 
-                        width='125' 
-                        height='50'
+                        width='206' 
+                        height='55'
                     />
                 </Link>
                 <div>
@@ -87,14 +88,14 @@ const Navbar = () => {
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         <Link href='/'>
-                            <Image src={logoImg} width="87" height="35" alt="/" />
+                            <Image src={logoImg} width="206" height="55" alt="/" />
                         </Link>
                         <div onClick={handleNav} className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'>
                             <AiOutlineClose />
                         </div>
                     </div>
                     <div className='border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md:w-[90%] py-4'>Lorem ipsum dolor sit amet, consectetur</p>
+                        <p className='w-[85%] md:w-[90%] py-4'>We gaan voor goud!</p>
                     </div>
                 </div>
                 <div className='py-4 flex flex-col'>

@@ -7,6 +7,12 @@ import phpImg from '../public/assets/skills/php.png'
 import xamppImg from '../public/assets/skills/xampp.png'
 import wordpressImg from '../public/assets/skills/wordpress.png'
 import photoshopImg from '../public/assets/skills/photoshop.png'
+import lightroomImg from '../public/assets/skills/lightroom.png'
+import adobexdImg from '../public/assets/skills/adobe-xd.png'
+import bootstrapImg from '../public/assets/skills/bootstrap.png'
+import blenderImg from '../public/assets/skills/blender.png'
+import scssImg from '../public/assets/skills/sass.png'
+import tailwindImg from '../public/assets/skills/tailwindcss.png'
 
 const Skills = () => {
   return (
@@ -124,6 +130,102 @@ const Skills = () => {
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <h3>Photoshop</h3>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image 
+                        src={lightroomImg} 
+                        width='64px' 
+                        height='64px' 
+                        alt='/' 
+                    />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                    <h3>Lightroom</h3>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image 
+                        src={bootstrapImg} 
+                        width='64px' 
+                        height='64px' 
+                        alt='/' 
+                    />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                    <h3>Bootstrap</h3>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image 
+                        src={blenderImg} 
+                        width='80px' 
+                        height='64px' 
+                        alt='/' 
+                    />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                    <h3>Blender 3D</h3>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image 
+                        src={adobexdImg} 
+                        width='64px' 
+                        height='64px' 
+                        alt='/' 
+                    />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                    <h3>Adobe XD</h3>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image 
+                        src={scssImg} 
+                        width='85px' 
+                        height='64px' 
+                        alt='/' 
+                    />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                    <h3>SCSS (SASS)</h3>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image 
+                        src={tailwindImg} 
+                        width='85px' 
+                        height='64px' 
+                        alt='/' 
+                    />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                    <h3>TailwindCSS</h3>
                 </div>
             </div>
             </div>
