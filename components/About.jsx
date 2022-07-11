@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 import aboutImg from '../public/assets/ricardo-goud.jpg';
 
@@ -23,7 +24,7 @@ const About = () => {
                 Ook vind ik het leuk om mijzelf bezig te houden met welke vorm van development dan ook. Ik ben immers klaar met school, dus vind ik het leuk om mezelf uit te
                 dagen met eigen projecten. Deze website bijvoorbeeld :) <br />
                 </p>
-                <a href="/#projects"><p className='py-2 text-gray-600 underline cursor-pointer'>Bekijk hier mijn bijdragen & projecten.</p></a>
+                <Link href="/#projects"><p className='py-2 text-gray-600 underline cursor-pointer'>Bekijk hier mijn bijdragen & projecten.</p></Link>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <Image className='rounded-xl' src={aboutImg} alt='/' />

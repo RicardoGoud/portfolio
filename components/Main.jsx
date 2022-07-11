@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsInstagram} from 'react-icons/bs';
@@ -31,11 +32,11 @@ const Main = () => {
                     </div>
                     </a>
 
-                    <a href="/#contact">
+                    <Link href="/#contact">
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineMail />
                     </div>
-                    </a>
+                    </Link>
 
                     <a href="https://www.instagram.com/ricardo_goud/">
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
