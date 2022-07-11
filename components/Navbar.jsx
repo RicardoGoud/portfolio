@@ -17,7 +17,10 @@ const Navbar = () => {
     useEffect(() => {
         if (
             router.asPath === '/houdijk' ||
-            router.asPath === '/willtell'
+            router.asPath === '/willtell' ||
+            router.asPath === '/namegenerator' ||
+            router.asPath === '/aurum' ||
+            router.asPath === '/cyber7'
         ) {
             setNavBg('transparent')
             setLinkColor('#ecf0f3')

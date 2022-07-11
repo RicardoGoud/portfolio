@@ -1,11 +1,11 @@
 import React from 'react';
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
+import {BsInstagram} from 'react-icons/bs';
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
 import Link from 'next/link';
 import Image from 'next/image';
-import contactImg from '../public/assets/laptop.jpg'
+import contactImg from '../public/assets/ricardo-goud.jpeg'
 
 const Contact = () => {
   return (
@@ -29,18 +29,29 @@ const Contact = () => {
                     <div>
                         <p className='uppercase pt-8'>Connect with me</p>
                         <div className='flex items-center justify-between py-4'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <FaLinkedinIn />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <FaGithub />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <AiOutlineMail />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                <BsFillPersonLinesFill />
-                            </div>
+                        <a href="https://www.linkedin.com/in/ricardo-goud-095652194/" target='_blank' rel="noreferrer">
+                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                            <FaLinkedinIn />
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/RicardoGoud" target='_blank' rel="noreferrer">
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <FaGithub />
+                    </div>
+                    </a>
+
+                    <Link href="/#contact">
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <AiOutlineMail />
+                    </div>
+                    </Link>
+
+                    <a href="https://www.instagram.com/ricardo_goud/">
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <BsInstagram />
+                    </div>
+                    </a>
                         </div>
                     </div>
                     </div>

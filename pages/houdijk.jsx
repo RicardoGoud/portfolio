@@ -20,15 +20,17 @@ const houdijk = () => {
             <div className='col-span-4'>
                 <p>Project</p>
                 <h2>Overview</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <p className='py-2'>
+                    In mijn afstudeerstage heb ik mogen werken voor verschillende klanten. Éen van deze klanten was Houdijk, een producent van fabrieksmachines voor het bereiden
+                    van diverse soorten koekjes. Door een reeks van bepaalde machines achter elkaar te zetten komt er een gewenst soort product uit. Door middel van een configurator
+                    kan de klant diverse opties kiezen. Denk hierbij aan de vorm van het koekje, de vulling, de verpakking, de hoeveelheid per verpakking etc.
                 </p>
-                <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-                <button className='px-8 py-2 mt-4'>Code</button>
+                <p className='py-2'>
+                    Mijn deel in dit project was het vullen van deze configurator. Er zijn vandaag de dag ruim 50 mogelijkheden die alle 50 een andere uitkomst bieden.
+                    Alle foto's van de aparte machines moesten worden toegevoegd in het CMS, de image-map moest gemaakt worden met behulp van Adobe Dreamweaver, waarvan
+                    vervolgens de coördinaten aan de desbetreffende machine gehangen moest worden. Door dit project heb ik kennis opgedaan van diverse PHP functies, Dreamweaver,
+                    Image-maps en het CMS Wordpress in combinatie met diverse plug-ins.
+                </p>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>
@@ -47,7 +49,7 @@ const houdijk = () => {
                             <RiRadioButtonFill className='pr-1' /> Photoshop
                         </p>
                         <p className='text-gray-600 py-2 flex items-center'>
-                            <RiRadioButtonFill className='pr-1' /> Adobe Dreamweaver
+                            <RiRadioButtonFill className='pr-1 w-4 h-4' /> Adobe Dreamweaver
                         </p>
                     </div>
                 </div>
