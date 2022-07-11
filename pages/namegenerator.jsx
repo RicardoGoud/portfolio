@@ -23,7 +23,7 @@ const namegenerator = () => {
                 <p>
                     Mijn afstudeerproject was het bouwen van een namegenerator voor mijn bedrijf. Het hoofdkantoor van dit bedrijf zat destijds aan de waal,
                     vandaar dat het bedrijf een lange tijd Waal aan de Maas (WADM) heeft geheten. Echter is het hoofdkantoor verplaatst. De bedrijfsnaam heeft nu dus geen
-                    betekenis meer. Er is toen besloten om klanten en collega's te laten brainstormen over een nieuwe naam. Hiervoor is toen een namegenerator bedacht.
+                    betekenis meer. Er is toen besloten om klanten en collega&apos;s te laten brainstormen over een nieuwe naam. Hiervoor is toen een namegenerator bedacht.
                     De gebruiker laat zijn naam en emailadres achter, en vult vervolgens zijn of haar idee in over waar WADM voor zou kunnen staan. Dit komt, na goedkeuring vanuit
                     het CMS terug in verschillende scoreboards op de website. Andere gebruikers kunnen vervolgens stemmen op inzendingen. Eenmaal per jaar wordt er gekeken naar de
                     inzending met de meeste punten.

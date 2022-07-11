@@ -27,7 +27,7 @@ const houdijk = () => {
                 </p>
                 <p className='py-2'>
                     Mijn deel in dit project was het vullen van deze configurator. Er zijn vandaag de dag ruim 50 mogelijkheden die alle 50 een andere uitkomst bieden.
-                    Alle foto's van de aparte machines moesten worden toegevoegd in het CMS, de image-map moest gemaakt worden met behulp van Adobe Dreamweaver, waarvan
+                    Alle foto&apos;s van de aparte machines moesten worden toegevoegd in het CMS, de image-map moest gemaakt worden met behulp van Adobe Dreamweaver, waarvan
                     vervolgens de coördinaten aan de desbetreffende machine gehangen moest worden. Door dit project heb ik kennis opgedaan van diverse PHP functies, Dreamweaver,
                     Image-maps en het CMS Wordpress in combinatie met diverse plug-ins.
                 </p>

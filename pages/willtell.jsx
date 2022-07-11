@@ -25,7 +25,6 @@ const willtell = () => {
                     wel volgens het ontwerp. In 2 weken tijd heb ik een website met Wordpress en Bootstrap opgezet. Hierin zaten ook verschillende plug-ins verwerkt.
                     Éen van de plug-ins was ACF, oftewel Advanced Custom Fields. Deze plug-in maakt content beheersbaar via het CMS door het gebruik van variabelen in de code.
                 </p>
-                <button onclick="location.href='https://willtell.inlinedigital.nl/'" className='px-8 py-2 mt-4 mr-8'>Demo</button>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>

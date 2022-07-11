@@ -22,7 +22,7 @@ const portfolio = () => {
                 <h2>Overview</h2>
                 <p>
                     Na het succesvol behalen van mijn diploma besloot ik als éen van mijn eerste projecten een portfolio te bouwen. Na wat zoekwerk naar een nieuw framework
-                    kwam ik NextJS tegen. Dit in combinatie met TailwindCSS vormt een sterke basis voor websites zoals portfolio's. Nadat ik deze website gebouwd had, heb ik 
+                    kwam ik NextJS tegen. Dit in combinatie met TailwindCSS vormt een sterke basis voor websites zoals portfolio&apos;s. Nadat ik deze website gebouwd had, heb ik 
                     deze gehost bij Vercel en een eigen domein gekocht. Deze website dus :) <br />
                     Ik ben dan ook van plan deze website uit te breiden met nieuwe projecten, de algemene status van deze website te verbeteren en mijn kennis te verbreden.
                 </p>
