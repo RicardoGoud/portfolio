@@ -29,29 +29,29 @@ const Contact = () => {
                     <div>
                         <p className='uppercase pt-8'>Connect with me</p>
                         <div className='flex items-center justify-between py-4'>
-                        <a href="https://www.linkedin.com/in/ricardo-goud-095652194/" target='_blank' rel="noreferrer">
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedinIn />
-                        </div>
-                    </a>
+                            <a href="https://www.linkedin.com/in/ricardo-goud-095652194/" target='_blank' rel="noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:text-[#5651e5] hover:scale-110 ease-in duration-300'>
+                                    <FaLinkedinIn />
+                                </div>
+                            </a>
 
-                    <a href="https://github.com/RicardoGoud" target='_blank' rel="noreferrer">
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaGithub />
-                    </div>
-                    </a>
+                            <a href="https://github.com/RicardoGoud" target='_blank' rel="noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:text-[#5651e5] hover:scale-110 ease-in duration-300'>
+                                    <FaGithub />
+                                </div>
+                            </a>
 
-                    <Link href="/#contact">
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail />
-                    </div>
-                    </Link>
+                            <Link href="/#contact">
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:text-[#5651e5] hover:scale-110 ease-in duration-300'>
+                                    <AiOutlineMail />
+                                </div>
+                            </Link>
 
-                    <a href="https://www.instagram.com/ricardo_goud/">
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsInstagram />
-                    </div>
-                    </a>
+                            <a href="https://www.instagram.com/ricardo_goud/">
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:text-[#5651e5] hover:scale-110 ease-in duration-300'>
+                                    <BsInstagram />
+                                </div>
+                            </a>
                         </div>
                     </div>
                     </div>

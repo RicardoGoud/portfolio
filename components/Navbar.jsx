@@ -3,7 +3,7 @@ import Link from 'next/link';
 import React, {useState, useEffect} from 'react';
 import {AiOutlineClose, AiOutlineMail, AiOutlineMenu} from 'react-icons/ai';
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
+import {BsInstagram} from 'react-icons/bs';
 import {useRouter} from 'next/router';
 import logoImg from '../public/assets/logo-ricardo.png'
 
@@ -62,19 +62,19 @@ const Navbar = () => {
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Home</li>
+                            <li className='ml-10 text-sm uppercase hover:scale-110 hover:text-[#5651e5] ease-in duration-100'>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+                            <li className='ml-10 text-sm uppercase hover:scale-110 hover:text-[#5651e5] ease-in duration-100'>About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+                            <li className='ml-10 text-sm uppercase hover:scale-110 hover:text-[#5651e5] ease-in duration-100'>Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                            <li className='ml-10 text-sm uppercase hover:scale-110 hover:text-[#5651e5] ease-in duration-100'>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='ml-10 text-sm uppercase hover:border-b'>Contact</li>
+                            <li className='ml-10 text-sm uppercase hover:scale-110 hover:text-[#5651e5] ease-in duration-100'>Contact</li>
                         </Link>
                     </ul>
                     <div onClick={handleNav} className='md:hidden'>
@@ -122,18 +122,29 @@ const Navbar = () => {
                     <div className='pt-40'>
                         <p className='uppercase tracking-widest text-[#5651e5]'>Let&apos;s connect</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaLinkedinIn />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <FaGithub />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <AiOutlineMail />
-                            </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <BsFillPersonLinesFill />
-                            </div>
+                            <a href="https://www.linkedin.com/in/ricardo-goud-095652194/" target='_blank' rel="noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:text-[#5651e5] hover:scale-110 ease-in duration-300'>
+                                    <FaLinkedinIn />
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/RicardoGoud" target='_blank' rel="noreferrer">
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:text-[#5651e5] hover:scale-110 ease-in duration-300'>
+                                    <FaGithub />
+                                </div>
+                            </a>
+
+                            <Link href="/#contact">
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:text-[#5651e5] hover:scale-110 ease-in duration-300'>
+                                    <AiOutlineMail />
+                                </div>
+                            </Link>
+
+                            <a href="https://www.instagram.com/ricardo_goud/">
+                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:text-[#5651e5] hover:scale-110 ease-in duration-300'>
+                                    <BsInstagram />
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
