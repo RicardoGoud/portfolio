@@ -82,7 +82,7 @@ const Contact = () => {
                                 <label className='uppercase text-sm py-2'>Bericht</label>
                                 <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='8'></textarea>
                             </div>
-                            <button className='w-full p-4 text-gray-100 mt-4'>Stuur bericht</button>
+                            <button type='submit' className='w-full p-4 text-gray-100 mt-4'>Stuur bericht</button>
                         </form>
                     </div>
                 </div>

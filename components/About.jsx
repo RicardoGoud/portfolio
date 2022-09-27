@@ -11,7 +11,7 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Wie ben ik:</h2>
                 <p className='py-2 text-gray-600'>
-                Ik ben Ricardo Goud, 18 jaar en wonend in Ridderkerk. In juni 2022 heb ik de opleiding Applicatie- 
+                Ik ben Ricardo Goud, 19 jaar en wonend in Ridderkerk. In juni 2022 heb ik de opleiding Applicatie- 
                 & Mediaontwikkelaar op het Hoornbeeck College in Rotterdam afgerond. In deze opleiding heb ik tweemaal
                 stage mogen lopen, die mij beide veel kennis hebben opgeleverd. Ik heb besloten om na deze 3 schooljaren
                 mijn kennis in de praktijk te willen brengen. Ikzelf leerde het meest van de stages. Het mogen proeven van het
