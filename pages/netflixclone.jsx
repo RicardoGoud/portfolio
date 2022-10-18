@@ -22,7 +22,7 @@ const portfolio = () => {
                 <h2>Overview</h2>
                 <p>
                     Momenteel ben ik bezig met het bouwen van een Netflix Clone. Deze bestaat voornamelijk uit ReactJS en TailwindCSS. Ook maakt deze applicatie gebruik van een API van The Movie Database (TMDB).
-                    Zo worden onder de sectie 'trending' ook daadwerkelijk momenteel trending films opgehaald. Dit geldt voor alle categorieën.
+                    Zo worden onder de sectie &apos;trending&apos; ook daadwerkelijk momenteel trending films opgehaald. Dit geldt voor alle categorieën.
                     Ook kunnen gebruikers zichzelf registreren en vervolgens aanmelden. Dit wordt gedaan door middel van Firebase. Momenteel is de Authenticatie van Firebase in aanbouw.
                     Echter is het project en de voortgang hiervan al wel terug te vinden op GitHub.
                 </p>
