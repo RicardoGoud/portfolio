@@ -29,6 +29,13 @@ const aurum = () => {
                     Het ziekenhuis kan mensen toevoegen aan kamers en een specifiek bed. De verblijfstijd van de cliënt wordt automatisch bijgehouden en komt terug op de automatisch gegenereerde
                     factuur aan het eind van het ziekenhuisbezoek.
                 </p>
+                <a
+                    href='https://github.com/RicardoGoud/Aurum'
+                    target='_blank'
+                    rel='noreferrer'
+                >
+                    <button className='px-8 py-2 mt-4 mr-8'>GitHub</button>
+                </a>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>

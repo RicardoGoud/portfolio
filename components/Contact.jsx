@@ -86,6 +86,8 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
+
+                
             </div>
             <div className='flex justify-center py-12'>
                 <Link href='/'>

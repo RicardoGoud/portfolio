@@ -7,6 +7,7 @@ import wadmImg from '../public/assets/projects/wadm.png'
 import aurumImg from '../public/assets/projects/aurum.png'
 import cyber7Img from '../public/assets/projects/cyber7.png'
 import portfolioImg from '../public/assets/projects/portfolio.png'
+import netflixcloneImg from '../public/assets/projects/netflixclone.png'
 import ProjectItem from './ProjectItem'
 
 const Projects = () => {
@@ -51,6 +52,12 @@ const Projects = () => {
                     subtitle='NextJS & TailwindCSS'
                     backgroundImg={portfolioImg} 
                     projectUrl='/portfolio'
+                />
+                <ProjectItem 
+                    title='Netflix Clone' 
+                    subtitle='ReactJS & TailwindCSS'
+                    backgroundImg={netflixcloneImg} 
+                    projectUrl='/netflixclone'
                 />
             </div>
         </div>
