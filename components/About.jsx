@@ -24,7 +24,7 @@ const About = () => {
                 <p className='py-2 text-gray-600'>
                 Naast werk vind ik het leuk om bezig te zijn met mijn auto. Wassen, een rondje rijden of aan sleutelen, ik vind het allemaal leuk.
                 In de weekenden ben ik graag rond vrienden, het maakt dan niet uit wat we doen, een festival of thuis een film kijken. Daarnaast ben ik ook regelmatig graag sportief bezig.
-                Sportschool, padellen en zaalvoetbal zijn grote hobby's van mij.
+                Sportschool, padellen en zaalvoetbal zijn grote hobby&apos;s van mij.
                 Ook vind ik het leuk om mijzelf bezig te houden met welke vorm van development dan ook, ik geloof erin dat je jezelf altijd moet blijven uitdagen.
                 Dit doe ik dan ook met eigen projecten. Deze website bijvoorbeeld :) <br />
                 </p>
