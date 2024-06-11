@@ -19,7 +19,7 @@ const About = () => {
                 stage mogen lopen, die mij beide veel kennis hebben opgeleverd. Ik heb besloten om na deze 3 schooljaren
                 mijn kennis in de praktijk te willen brengen. Ikzelf leerde het meest van de stages. Het mogen proeven van het
                 bedrijfsleven leverde mij vaak in +- 20 weken net zoveel kennis op als een geheel schooljaar. Daarom werk ik sinds november 2022 met veel passie
-                bij <a href='https://growteq.nl/medewerkers/ricardo-goud/' target='_blank' className='text-[#5651e5]'>Growteq</a> als .NET developer.
+                bij <a href='https://growteq.nl/medewerkers/ricardo-goud/' target='_blank' rel="noreferrer" className='text-[#5651e5]'>Growteq</a> als .NET developer.
                 </p>
                 <p className='py-2 text-gray-600'>
                 Naast werk vind ik het leuk om bezig te zijn met mijn auto. Wassen, een rondje rijden of aan sleutelen, ik vind het allemaal leuk.
