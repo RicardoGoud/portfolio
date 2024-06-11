@@ -14,7 +14,7 @@ const Main = () => {
                     Hi, ik ben <span className='text-[#5651e5]' >Ricardo Goud</span>
                 </h1>
                 <h1 className='py-2 text-gray-700'>
-                    Een pas afgestudeerde developer
+                    Een .NET Developer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
                     Ik ben een recentelijk afgestudeerd developer die zich richt op het developen en deployen van websites en andere digitale uitingen. Momenteel ben ik mijn kennis aan het verbreden in deze grote branche.

@@ -13,6 +13,8 @@ import bootstrapImg from '../public/assets/skills/bootstrap.png'
 import blenderImg from '../public/assets/skills/blender.png'
 import scssImg from '../public/assets/skills/sass.png'
 import tailwindImg from '../public/assets/skills/tailwindcss.png'
+import dotnetImg from '../public/assets/skills/dotnet.svg'
+import csharpImg from '../public/assets/skills/csharp.png'
 
 const Skills = () => {
   return (
@@ -226,6 +228,38 @@ const Skills = () => {
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <h3>TailwindCSS</h3>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image
+                        src={dotnetImg}
+                        width='85px'
+                        height='64px'
+                        alt='/'
+                    />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                    <h3>.NET</h3>
+                </div>
+            </div>
+            </div>
+
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+                <div className='m-auto'>
+                    <Image
+                        src={csharpImg}
+                        width='64px'
+                        height='64px'
+                        alt='/'
+                    />
+                </div>
+                <div className='flex flex-col items-center justify-center'>
+                    <h3>C#</h3>
                 </div>
             </div>
             </div>
